@@ -1,0 +1,165 @@
+#menu{
+  background-color: #edeeef;
+  font-weight: bold;
+  margin: auto;
+  padding: 5px;
+  nav: fixed;
+  backface-visibility: hidden;
+  opacity: 0.9;
+  top:0;
+  z-index:1;
+  position: sticky;
+}
+
+#menu > .col-4{
+  font-size: 20px;
+  color: #660066;
+}
+
+#menu > .col-2{
+  font-size: 15px;
+  margin:auto;
+  text-align: center;
+}
+
+.Top{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  background-image: url("https://github.com/sachi05/sachi05.github.io/blob/master/collage%20(3).jpg?raw=true");
+  color: white;
+}
+
+.info{
+  padding: 40px;
+  margin : auto;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 50px;
+  margin-bottom: auto;
+}
+
+.top-head{
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Block1{
+  text-align: center;
+  background-color: #edeeef;
+  color: #660066;
+  padding: 20px;
+}
+
+.Block2{
+  text-align: center;
+  background-color: #660066;
+  color: #edeeef;
+  padding: 20px;
+}
+
+.Index-quote{
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Header{
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-image: url("https://github.com/sachi05/sachi05.github.io/blob/master/collage%20(3).jpg?raw=true");
+}
+
+.Content{
+  text-align: justify;
+}
+
+.Content > p, grid_card{
+  padding: 50px;
+}
+
+.rounded-circle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  width: 50%;
+}
+
+.grid_card{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item{
+  align: center;
+  text-align: center;
+}
+
+.rounded-circle{
+  width: 80%;
+}
+
+.Footer{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding:20px;
+  background-color:#edeeef;
+  height:200px;
+}
+
+.Services{
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+
+.Businesses{
+  background-color: #660066;
+  color: #edeeef;
+  padding: 15px;
+}
+
+.Schools{
+  background-color: #edeeef;
+  color: #660066;
+  padding: 15px;
+}
+
+#services-img{
+  width: 50%;
+}
+
+.Quote{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.Contact > .ContactHeading{
+  font-size: 20px;
+}
+
+.Contact > .rounded-circle{
+  width: 35%;
+}
+
+.Contact{
+  text-align: center;
+}
+
+#Map{
+  background-color: #660066;
+  text-align: center;
+  color: #edeeef;
+  font-size: 60px;
+}
+
+#Menu > .col-4, .col-8{
+  margin-top: auto;
+  margin-bottom: auto;
+}
